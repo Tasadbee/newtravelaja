@@ -1,0 +1,77 @@
+.benefit{
+    padding-top: 100px;
+    .container{
+        .benefit__box{
+            text-align: center;
+            align-items: center;
+            .benefit__title{
+                color: #3D3E48;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 180%;
+            }
+            .benefit__info{
+                color: #3D3E48;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;
+                font-size: 33.18px;
+                font-weight: 700;
+                line-height: 120%;
+            }
+            .benefit__list{
+                margin-top: 36px;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                flex-wrap: wrap;
+                .benefit__item{
+                    width: 350px;
+                    height: 350px;
+                    display: flex;
+                    justify-content: space-between;
+                    .benefit__item__img{
+                        width: 48px;
+                        height: 64px;
+                    }
+                    .benefit__item__box{
+                        text-align: start;
+                        align-items: left;
+                        margin-left: 20px;
+                        .benefit__item__title{
+                            color: #3D3E48;
+                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 27.65px;
+                            font-weight: 700;
+                            line-height: 120%;
+                        }
+                        .benefit__item__text{
+                            color: #3D3E48;
+                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 180%;
+                            margin-top: 10px;
+                        }
+                        .benefit__item__btn{
+                            width: 127px;
+                            height: 40px;
+                            border-radius: 8px;
+                            background: #43B97F;  
+                            border: #43B97F;    
+                            margin-top: 20px;
+                            cursor: pointer;
+                            .benefit__btn__link{
+                                text-decoration: none;
+                                color: #fff;
+                            }  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

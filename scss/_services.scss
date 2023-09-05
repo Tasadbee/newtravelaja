@@ -1,0 +1,47 @@
+.services{
+    padding-top: 100px;
+    .container{
+        .service__list{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            .service__item{
+                margin-right: 20px;
+                .service__item__title{
+                    color: #3D3E48;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 19.2px;
+                    font-weight: 700;
+                    line-height: 180%;
+                    margin-top: 10px;
+                }
+                .service__item__text{
+                    width: 280px;
+                    height: 116px;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 180%;
+                    margin-top: 10px;
+
+                }
+                .service__item__btn{
+                    width: 120px;
+                    height: 40px;
+                    border-radius: 15px;
+                    background: #43B97F;
+                    border: #43B97F;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    .service__btn__link{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.header .travel__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.header .travel__box .nav .travel__title {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 33.18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  width: 148px;
+  height: 40px;
+  cursor: pointer;
+}
+.header .travel__box .travel__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.header .travel__box .travel__list .travel__item {
+  margin-left: 25px;
+  width: 88px;
+  height: 49px;
+  padding-top: 15px;
+  text-align: center;
+  align-items: center;
+}
+.header .travel__box .travel__list .travel__link {
+  text-decoration: none;
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.header .travel__box .travel__list .travel__link:hover {
+  color: #43B97F;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 180%;
+}
+.header .travel__box .travel__span {
+  display: flex;
+  justify-content: space-between;
+}
+.header .travel__box .travel__span .travel__span__img {
+  margin-right: 2px;
+}
+.header .travel__box .travel__span .travel__span__b {
+  margin-right: 2px;
+}
+.header .travel__box .travel__span .travel__select {
+  border: none;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(../pictures/herobgimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .container .hero__title {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  color: white;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 33.18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.services {
+  padding-top: 100px;
+}
+.services .container .service__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.services .container .service__list .service__item {
+  margin-right: 20px;
+}
+.services .container .service__list .service__item .service__item__title {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 19.2px;
+  font-weight: 700;
+  line-height: 180%;
+  margin-top: 10px;
+}
+.services .container .service__list .service__item .service__item__text {
+  width: 280px;
+  height: 116px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  margin-top: 10px;
+}
+.services .container .service__list .service__item .service__item__btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  background: #43B97F;
+  border: #43B97F;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.services .container .service__list .service__item .service__item__btn .service__btn__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dream {
+  padding: 100px 0;
+}
+.dream .container .dream__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.dream .container .dream__list .dream__item .dream__item__title {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 23.04px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.dream .container .dream__list .dream__item .dream__item__date {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 180%;
+}
+.dream .container .dream__list .dream__item .dream__item__text {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.dream .container .dream__list .dream__item .dream__item__btn {
+  width: 127px;
+  height: 40px;
+  border-radius: 8px;
+  border: #43B97F;
+  background-color: transparent;
+  border: 1px solid #43B97F;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dream .container .dream__list .dream__item .dream__item__btn .dream__btn__link {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+.dream .container .dream__list .dream__item1 {
+  width: 380px;
+  height: 263px;
+  background-image: url(../pictures/dreamitembgimg1.png);
+  background-size: cover;
+  padding: 20px;
+}
+.dream .container .dream__list .dream__item2 {
+  width: 380px;
+  height: 263px;
+  background-image: url(../pictures/dreamitembgimg2.png);
+  background-size: cover;
+  padding: 20px;
+}
+.dream .container .dream__list .dream__item3 {
+  width: 380px;
+  height: 263px;
+  background-image: url(../pictures/dreamitembgimg3.png);
+  background-size: cover;
+  padding: 20px;
+}
+
+.facilities {
+  height: 600px;
+  padding-top: 80px;
+  background-image: url(../pictures/facilitybgimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.facilities .facilities__box {
+  display: flex;
+  justify-content: space-between;
+}
+.facilities .facilities__box .facilities__info__box {
+  width: 580px;
+  height: 116px;
+  margin-top: 150px;
+}
+.facilities .facilities__box .facilities__info__box .facilities__title {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 47.78px;
+  font-weight: 800;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.facilities .facilities__box .facilities__info__box .facilities__text {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 180%;
+  margin-top: 20px;
+}
+.facilities .facilities__box .facilities__info__box .facilities__btn {
+  width: 127px;
+  height: 49px;
+  border-radius: 8px;
+  background: #43B97F;
+  border: #43B97F;
+  margin-top: 30px;
+}
+.facilities .facilities__box .facilities__info__box .facilities__btn .facilities__btn__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 180%;
+}
+.facilities .facilities__box .facilities__list__box {
+  width: 580px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.facilities .facilities__box .facilities__list__box .facilities__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.facilities .facilities__box .facilities__list__box .facilities__list .facilities__item {
+  margin-bottom: 20px;
+  width: 280px;
+  height: 178px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+}
+.facilities .facilities__box .facilities__list__box .facilities__list .facilities__item .facilities__item__title {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 39.81px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.facilities .facilities__box .facilities__list__box .facilities__list .facilities__item .facilities__item__text {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+}
+
+.benefit {
+  padding-top: 100px;
+}
+.benefit .container .benefit__box {
+  text-align: center;
+  align-items: center;
+}
+.benefit .container .benefit__box .benefit__title {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.benefit .container .benefit__box .benefit__info {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 33.18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.benefit .container .benefit__box .benefit__list {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__img {
+  width: 48px;
+  height: 64px;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__box {
+  text-align: start;
+  align-items: left;
+  margin-left: 20px;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__box .benefit__item__title {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 27.65px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__box .benefit__item__text {
+  color: #3D3E48;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  margin-top: 10px;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__box .benefit__item__btn {
+  width: 127px;
+  height: 40px;
+  border-radius: 8px;
+  background: #43B97F;
+  border: #43B97F;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.benefit .container .benefit__box .benefit__list .benefit__item .benefit__item__box .benefit__item__btn .benefit__btn__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer {
+  height: 400px;
+  background-color: #295943;
+  padding-top: 42px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.footer .container .footer__box .footer__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer .container .footer__box .footer__list .footer__item {
+  width: 210px;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__logo__link {
+  text-decoration: none;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__logo__link .footer__item__logo {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 33.18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__text {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__info {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 19.2px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 35px;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__span {
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__title {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 19.2px;
+  font-weight: 600;
+  line-height: 180%;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.footer .container .footer__box .footer__list .footer__item .footer__item__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 14px;
+}/*# sourceMappingURL=main.css.map */

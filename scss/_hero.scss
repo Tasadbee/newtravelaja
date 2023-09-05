@@ -1,0 +1,21 @@
+.hero{
+    height: 400px;
+    background-image: url(../pictures/herobgimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container{
+        .hero__title{
+            position: absolute;
+            left: 50px;
+            top: 300px;
+            color:white;
+            color: #FFF;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-size: 33.18px;
+            font-weight: 700;
+            line-height: 120%
+            
+        }
+    }
+}
